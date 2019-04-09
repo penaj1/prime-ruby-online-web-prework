@@ -6,4 +6,3 @@ end
 def prime?(-1)
 puts "Be sure to account for negative numbers!"
 end
-
