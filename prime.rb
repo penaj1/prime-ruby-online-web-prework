@@ -1,8 +1,10 @@
 # Add  code here!
-def prime?()
-Prime.instance.prime?(2)
-end
-
-def prime?(-1)
-puts "Be sure to account for negative numbers!"
+def prime?(number)
+  if number >= 2
+    (2..number - 1).all? do |x|
+      number % x != 0
+    end
+  else
+    return false
+  end
 end
