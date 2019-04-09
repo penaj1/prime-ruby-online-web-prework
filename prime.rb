@@ -1,4 +1,5 @@
 # Add  code here!
-def
+def prime?()
 Prime.instance.prime?(2)
 end
+
